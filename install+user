@@ -1,0 +1,4 @@
+usermod -aG ftp anastasiya
+chmod 775 /home/anastasiya
+chown -R anastasiya:anastasiya /home/anastasiya
+nano /etc/vsftpd.conf
